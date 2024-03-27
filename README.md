@@ -20,7 +20,8 @@
 
 `pop(self):` Overrides the pop method of the Stack class to subtract the popped value from the sum before returning it.
 
-![Python inheritance.png](assets%2FPython%20inheritance.png)
+
+<img src="Assets/Python_inheritance.png" width="300">
 
 
 
