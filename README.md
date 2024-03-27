@@ -21,7 +21,7 @@
 `pop(self):` Overrides the pop method of the Stack class to subtract the popped value from the sum before returning it.
 
 
-<img src="Assets/Python_inheritance.png" width="300">
+<img src="assets/Python_inheritance.png" width="300">
 
 
 
