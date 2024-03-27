@@ -20,6 +20,10 @@
 
 `pop(self):` Overrides the pop method of the Stack class to subtract the popped value from the sum before returning it.
 
+![Python inheritance.png](assets%2FPython%20inheritance.png)
+
+
+
 ### Enhanced functionality
 
 The SumStack class extends the functionality of the Stack class by keeping track of the sum of elements pushed onto or popped from the stack.
