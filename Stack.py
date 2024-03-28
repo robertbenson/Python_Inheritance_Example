@@ -13,7 +13,7 @@ class Stack:
 
 class SumStack(Stack):
     def __init__(self):
-        super().__init__()
+        super().__init__()             # note that self is not filled in
         # Stack.__init__(self)        this will work, but super() preferred
         self.__sum = 0  # private instance variable
 

@@ -1,7 +1,17 @@
 
 # Inheritance Example using Python
 ## Description
-## Stack class:
+
+Inheritance allows us to define a class that inherits all the methods and properties from another class.
+The newly created class is known as the subclass (child or derived class).
+The existing class from which the child class inherits is known as the superclass (parent or base class).
+
+It provides the reusability of a code as we don’t have to write the same code again. Once a subclass is created, it inherits all attributes and methods from its parent class(es). This means that instances of the subclass can access and use these inherited attributes and methods without redefining them.
+
+Overriding Methods: Subclasses can override methods inherited from their parent classes by defining a method with the same name in the subclass. This allows subclasses to customise or extend the behavior of inherited methods.
+
+##  Parent Class:
+### Stack class:
 
 `__init__(self):` Initialises an empty stack (private).
 
@@ -9,7 +19,8 @@
 
 `pop(self):` Removes and returns the top element from the stack.
 
-## SumStack class (inherits from Stack):
+## Child Class:
+### SumStack Class (inherits from Stack class):
 
 
 `__init__(self):` Initialises an empty stack and sets the sum to 0.
@@ -27,7 +38,9 @@
 
 ### Enhanced functionality
 
-The SumStack class extends the functionality of the Stack class by keeping track of the sum of elements pushed onto or popped from the stack.
+Inheritance enables the creation of a hierarchy of classes where the child classes (subclasses) can inherit and extend the functionality of parent classes (superclasses).
+
+In this example, the functionality of the parent class is kept, unchanged , the child class (SumStack) extends the functionality of the Stack class by keeping track of the sum of elements pushed onto or popped from the stack.
 
 
 

@@ -48,6 +48,7 @@ class SumstackTestCase(unittest.TestCase):
         self.assertEqual(adding_stack.get_sum(), 0)
 
 
+
     def test_push_non_int(self):
         """ the stack should only accept integers"""
         adding_stack = SumStack()
