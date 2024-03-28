@@ -35,6 +35,10 @@ Overriding Methods: Subclasses can override methods inherited from their parent 
 
 <img src="assets/Python_inheritance.png" width="300">
 
+# 
+
+
+<img src="assets/Python_inherit_diagram.png" width="600">
 
 
 ### Enhanced functionality
