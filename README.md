@@ -45,7 +45,7 @@ Overriding Methods: Subclasses can override methods inherited from their parent 
 
 Inheritance enables the creation of a hierarchy of classes where the child classes (subclasses) can inherit and extend the functionality of parent classes (superclasses).
 
-In this example, the functionality of the parent class is kept, unchanged , the child class (SumStack) extends the functionality of the Stack class by keeping track of the sum of elements pushed onto or popped from the stack.
+In this example, the functionality of the parent class is kept, unchanged. The stack will push and pop values as before. The child class (SumStack) extends the functionality of the Stack class by keeping track of the sum of elements pushed onto or popped from the stack.
 
 
 
