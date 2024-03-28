@@ -6,8 +6,11 @@ def main():
     # print(help(adding_stack))
 
     for i in range(5):
-        sum_stack.push(i)
-        print(f"push: {i}{sum_stack.__dict__}")
+        try:
+            sum_stack.push(i)
+            print(f"push: {i}{sum_stack.__dict__}")
+        except TypeError:
+            print(f"TypeError: value is not int or float: {i}")
 
     print(f"Total: {sum_stack.get_sum()}")
 
