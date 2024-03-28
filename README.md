@@ -3,10 +3,11 @@
 ## Description
 
 Inheritance allows us to define a class that inherits all the methods and properties from another class.
-The newly created class is known as the subclass (child or derived class).
-The existing class from which the child class inherits is known as the superclass (parent or base class).
-
-It provides the reusability of a code as we don’t have to write the same code again. Once a subclass is created, it inherits all attributes and methods from its parent class(es). This means that instances of the subclass can access and use these inherited attributes and methods without redefining them.
+The newly created class is known as the subclass (child class,derived class or sub class).
+The existing class from which the child class inherits is known as  superclass (parent or base class).
+Each sub class becomes more specific or specialised.
+Each super class is more general or more abtract than its subclasses.
+It provides for the reusability of code as we don’t have to write the same code again. Once a subclass is created, it inherits all attributes and methods from its parent class(es). This means that instances of the subclass can access and use these inherited attributes and methods without redefining them.
 
 Overriding Methods: Subclasses can override methods inherited from their parent classes by defining a method with the same name in the subclass. This allows subclasses to customise or extend the behavior of inherited methods.
 
